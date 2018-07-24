@@ -1,0 +1,3 @@
+CREATE TABLE SECURITY(clientid varchar(20) NOT NULL, secretkey varchar(20) NOT NULL);
+
+CREATE TABLE LOG(timelogged datetime DEFAULT NOW, clientid varchar(40) NOT NULL, name varchar(40) NOT NULL);
